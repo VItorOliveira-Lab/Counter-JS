@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+body h1 {
+    color: rgb(85, 85, 85);
+    font-size: 2.5rem;
+}
+
+body p {
+    color: gray;
+}
+
+button {
+    margin: 0 10px;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: rgb(38, 183, 232);
+    color: white;
+}
+
+span {
+    margin: 0 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.subtrair {
+    color: red;
+}
+
+.incrementar {
+    color: green;
+}
